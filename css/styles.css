@@ -1,0 +1,133 @@
+#title {background-color: #ff4c68; color: White;}
+
+ body {font-family: 'Montserrat-Black' , sans-serif;}
+
+h1, h3, h4, h5, h6 { font-family: 'Montserrat-bold', sans-serif;
+}
+
+p{
+  color:#8f8f8f;
+}
+
+/* Headings */
+
+.big-heading{
+  font-family: 'Montserrat', sans-serif; font-size: 3.5rem; line-height: 1.5; font-weight: 600;
+}
+
+
+.section-heading{font-size: 3rem; line-height: 1.5;}
+
+
+
+/* navigation bar */
+.container {padding: 3% 15%;}
+
+.navbar {margin-bottom: 4.5rem;}
+
+.tindog {font-family: 'Ubuntu', sans-serif; font-size: 2.5rem;
+font-weight: 600; color: white;}
+
+.nav-item {padding: 0 15px;}
+
+/* Download Button */
+
+.download-button {margin: 5% 3% 5% 0}
+
+/* Title Image */
+
+.title-img {width: 45%; transform: rotate(25deg);
+  position: relative;
+  }
+
+/* Features */
+
+#features {padding: 7% 15%; background-color: white; position: relative;
+  z-index: 1;
+}
+
+.text-align {text-align: center;}
+
+.features-text {color:#8f8f8f}
+
+.fas {color: #ef8172; height: 50px; width: 50px; margin: 3% 30%;}
+
+.fas:hover {color:#ff4c68;}
+
+/* Testimonials */
+#testimonials {text-align: center; background-color:#ef8172; color:white; }
+
+.testimonial-image {border-radius: 50%; width: 10%;}
+
+.carousel-item {padding: 7% 15%;}
+
+
+.testimonial-text {font-size: 3rem;
+line-height: 1.5;}
+
+/* Press */
+#press {background-color:#ef8172; text-align: center; padding-bottom: 40px; }
+
+.press-logo {width: 15%; margin: 20px 20px 50px;}
+
+
+/*Pricing*/
+#pricing {padding: 100px;}
+
+
+.row {text-align: center;}
+
+
+.pricing-coloumn {padding: 3% 2%;}
+
+.price-text{font-size: 3 rem; line-height: 1.5;}
+
+/* CALL TO ACTION*/
+
+#cta {padding: 7% 15%; background-color:#ff4c68;
+  color: White; text-align: center; font-weight: bold;
+
+}
+
+.cta-heading {
+  font-family: "Montserrat-black";
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+/* Footer */
+
+#footer{
+padding: 5% 15%;
+text-align: center;
+
+}
+
+#footer .fa{
+margin:10px;
+margin-bottom: 30px;
+cursor: pointer;
+}
+
+/* Media Query */
+
+@media (max-width: 1028px) {
+
+#title{
+text-align: center;
+}
+
+.title-img{
+  position: static;
+  transform: rotate(0);
+}
+
+
+}
